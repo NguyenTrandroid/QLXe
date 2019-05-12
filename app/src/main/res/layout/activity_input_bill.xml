@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".InputBillActivity">
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp2"></DatePicker>
+
+    <LinearLayout
+    android:background="#C9C9A1"
+    android:layout_margin="@dimen/dp10"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp50"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="@dimen/sp25"
+        android:text="Mã Xe:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></Spinner>
+</LinearLayout>
+    <LinearLayout
+        android:background="#C9C9A1"
+        android:layout_margin="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textColor="#000"
+            android:textSize="@dimen/sp25"
+            android:text="Số lượng:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+    </LinearLayout>
+
+
+</LinearLayout>

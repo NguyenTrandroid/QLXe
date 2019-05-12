@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp370"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_background_dialog"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp5">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nahia"
+            android:text="THÔNG TIN XE"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp25" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp5">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nahia"
+            android:text="Tên xe: "
+            android:textColor="#000"
+            android:textSize="@dimen/sp20" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp5">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nahia"
+            android:text="Dung tích: "
+            android:textColor="#000"
+            android:textSize="@dimen/sp20" />
+
+        <EditText
+            android:id="@+id/edt_Dt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp5">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nahia"
+            android:text="Đơn giá: "
+            android:textColor="#000"
+            android:textSize="@dimen/sp20" />
+
+        <EditText
+            android:id="@+id/edt_pirce"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp10"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_add"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp70"
+            android:background="@drawable/custom_button_blue"
+            android:fontFamily="@font/nahia"
+            android:text="Thêm"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/bt_cc"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_white"
+            android:fontFamily="@font/nahia"
+            android:text="Hủy" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
